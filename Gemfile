@@ -53,6 +53,16 @@ group :development, :test do
   gem 'bootstrap', '~> 4.1.0'
   gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
   gem 'pg_search', '~> 1.0', '>= 1.0.5'
+
+  # Use postgresql as the database for Active Record
+  gem 'pg', '>= 0.18', '< 2.0'
+
+  # gem 'omniauth-google-oauth2', '~> 0.4.1'
+  # gem 'vk-ruby', '~> 1.0', '>= 1.0.2'
+  # gem 'multi_json', '~> 1.13', '>= 1.13.1'
+  # gem 'jbuilder', '~> 2.5'
+  # gem 'activesupport', '~> 5.2'
+  # gem 'multi_json', '~> 1.13', '>= 1.13.1'
 end
 
 group :development do
@@ -73,6 +83,16 @@ group :development do
   gem 'bootstrap', '~> 4.1.0'
   gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
   gem 'pg_search', '~> 1.0', '>= 1.0.5'
+
+  # Use postgresql as the database for Active Record
+  gem 'pg', '>= 0.18', '< 2.0'
+
+  # gem 'omniauth-google-oauth2', '~> 0.4.1'
+  # gem 'vk-ruby', '~> 1.0', '>= 1.0.2'
+  # gem 'multi_json', '~> 1.13', '>= 1.13.1'
+  # gem 'jbuilder', '~> 2.5'
+  # gem 'activesupport', '~> 5.2'
+  # gem 'multi_json', '~> 1.13', '>= 1.13.1'
 end
 
 group :test do
